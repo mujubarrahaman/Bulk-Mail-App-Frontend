@@ -63,7 +63,7 @@ return (
   <textarea onChange={handleMsg} value={msg} name="" id="" placeholder="Enter the Email text...📝" class="contact-inputs"></textarea>
   <input onChange={handleFile} class="file" type="file"/>
  
-  <p className='count'>Total Email in the file: {emailList.length}</p>
+  <h3 className='count'>Total Email in the file: {emailList.length}</h3>
   <button onClick={send}>{status ? "sending" : "send"} <img src={btn} alt="" /></button>
 </div>
 
