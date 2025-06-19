@@ -91,7 +91,7 @@ body{
         display: none;
     }
     .contact-left p{
-        font-size: 16px;
+        font-size: 12px;
         margin-left: 2px;
     }
     
@@ -102,27 +102,28 @@ body{
     }
     .contact-left h3{
         font-size: small;
+
         
     }
     .contact-left button{
-        margin-left: 37%;
+        margin-left: 32%;
     }
     h3{
-        margin-left: 37%;
+        margin-left: 35%;
     }
     .contact-left-title{
-        margin-left: 27%;
+        margin-left: 22%;
     }
     textarea{
-        margin-left: 10px;
+        margin-left: 14px;
     }
     .contact-left-title hr{
         width: 180px;
     }
     .file{
-        margin-left: 24%;
+        margin-left: 14%;
     }
     .count{
-        margin-left: 35%;
+        margin-left: 29%;
     }
 }
