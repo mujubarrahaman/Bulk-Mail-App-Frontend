@@ -96,26 +96,30 @@ body{
     }
     
     .contact-left{
-        font-size: 12px;
+        font-size: 14px;
        
         text-align: center;
     }
+    
     .contact-left h3{
         font-size: small;
 
         
     }
+    .contact-left p{
+        font-size: 13px;
+    }
     .contact-left button{
         margin-left: 32%;
     }
     h3{
-        margin-left: 35%;
+        margin-left: 37%;
     }
     .contact-left-title{
-        margin-left: 22%;
+        margin-left: 24%;
     }
     textarea{
-        margin-left: 14px;
+        margin-left: 13px;
     }
     .contact-left-title hr{
         width: 180px;
