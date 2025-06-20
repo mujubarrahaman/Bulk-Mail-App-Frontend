@@ -4,6 +4,7 @@ import axios from 'axios';
 import * as XLSX from "xlsx";
 import btn from './assets/arrow_icon.png'
 import right from './assets/right_img.png'
+import Footer from './components/Footer';
 
 function App() {
   const [msg, setMsg] = useState("")
@@ -50,6 +51,7 @@ function send() {
 }
 
 return (
+  <div className='Bulmail'>
 
 <div className="contact-container">
 
@@ -63,7 +65,7 @@ return (
   <textarea onChange={handleMsg} value={msg} name="" id="" placeholder="Enter the Email text...📝" class="contact-inputs"></textarea>
   <input onChange={handleFile} class="file" type="file"/>
  
-  <h3 className='count'>Total Email in the file: {emailList.length}</h3>
+  <h4 className='count'>Total Email in the file: {emailList.length}</h4>
   <button onClick={send}>{status ? "sending" : "send"} <img src={btn} alt="" /></button>
 </div>
 
@@ -71,6 +73,9 @@ return (
     <img src={right} alt="" />
 </div>
 
+
+</div>
+<Footer></Footer>
 </div>
 )
 }
