@@ -1,12 +1,28 @@
-# React + Vite
+# 📧 Bulk Mail App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **Bulk Email Sending Web Application** built using the **MERN stack** (MongoDB, Express, React, Node.js).  
+This tool is designed to **send custom messages to multiple email recipients at once**, helping users save time and streamline communication.
 
-Currently, two official plugins are available:
+Link : https://bulk-mail-app-frontend-git-main-mujubar-rahamans-projects.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ✅ Upload Excel files (`.xlsx`) containing email lists
+- ✅ Send bulk emails instantly to all uploaded recipients
+- ✅ Email body customization through text input
+- ✅ Real-time feedback on sending status
+- ✅ Built with NodeMailer and Express backend
+- ✅ Fully responsive UI (Mobile + Desktop friendly)
+- ✅ Simple and user-friendly interface
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React, Vite, Tailwind CSS
+- **Backend**: Express.js, Node.js
+- **Database**: MongoDB
+- **Email Service**: Nodemailer
+- **File Upload Support**: `xlsx` (SheetJS)
